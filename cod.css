@@ -1,0 +1,82 @@
+.fullscreen-bg{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    
+
+}
+.fullscreen-bg_video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    backdrop-filter: 100px;
+}
+#img-left{
+    box-shadow: 5px 5px gray;
+    float: left;
+    border-radius: 50px;
+   margin-left: 10px;
+    
+}
+#kharid{
+    color: aliceblue;
+    margin-right: 50px;
+
+}
+#matn{
+    height: 2670px;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(200px);
+    background-color:rgba(255,255,255,);
+    border-radius:10px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+body{
+    font-family: "B-Koodak/B Koodak Bold_0.ttf";
+}
+#nokat{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#dropdowns{
+    
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#platform{
+    display: flex;
+    align-items: flex-start;
+}
+#playstation{
+    display: none;
+}
+#xbox{
+    display: none;
+}
+#steam{
+    display: none;
+}
+#b-p-1{
+    margin-right: 150px;
+   width: 20%; height: 50px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="bootstrap.min.css"> 
+    <link rel="stylesheet" href="login.css">
+    <script src="jquery.js"></script>
+</head>
+<body dir="rtl">
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg_video"> 
+        <source src="./ghost-call-of-duty-modern-warfare-ii-moewalls-com.mp4" type="video/mp4">  
+        </video>
+      </div>
+      <br><br><br><br><br>
+        <div class="container  ">
+            <div class="row justify-content-center">
+                <div class="col-5 col-md-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title text-center mb-4">ثبت نام</h1>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="mobile" class="form-label">عدد پیامک شده به شماره تلفن را وارد کنید :</label>
+                                    <input type="number" class="form-control" id="mobile" name="mobile" placeholder="کد :" required>
+                                </div>
+                        
+                                <div class="d-grid">
+                                    <a href="project-hcbj.html" type="submit" class="btn btn-primary" id="login">ورود</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="bootstrap.bundle.js"></script>
+        <script>
+            $(document).ready (function(){
+                $("#login").click(function(){
+                    alert("ورود شما تایید شد...")
+                });
+            });
+        </script>
+</body>
+</html>
